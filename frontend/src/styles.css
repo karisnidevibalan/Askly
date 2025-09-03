@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Tiny extras for chat bubbles if you want tails later */
+.bubble:after {
+  content: "";
+  position: absolute;
+  bottom: -6px;
+  border-width: 6px;
+  border-style: solid;
+  border-color: inherit;
+  left: 16px;
+  transform: rotate(45deg);
+}
